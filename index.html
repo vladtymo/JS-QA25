@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to JS</title>
+
+    <!-- підключеня зовнішнього файла CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* CSS selectors  */
+    </style>
+</head>
+
+<body>
+    <h1>Intro to <abbr title="JavaScript">JS</abbr></h1>
+    <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World
+        Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage
+        behavior, often incorporating third-party libraries.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore vitae recusandae ullam tenetur atque. Aut
+        provident vel deserunt quibusdam numquam nulla obcaecati esse excepturi eos laudantium molestiae aspernatur,
+        voluptates aperiam?</p>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem sequi at error optio veritatis. Iste
+            aliquam maiores iure quae.</li>
+        <li>Voluptatibus dicta fugiat ab beatae? Laudantium, magnam repellendus! Architecto, obcaecati nemo odit fugit
+            voluptatum corporis? Provident voluptate sit saepe sapiente!</li>
+        <li>Earum dolore architecto optio laudantium quas iusto, hic voluptate ratione quae ut iste modi eos libero vero
+            velit cupiditate quisquam!</li>
+        <li>Perspiciatis assumenda, error facere aliquid omnis veniam iste reprehenderit molestiae ullam! Hic cupiditate
+            quaerat laborum illo consequatur velit rem ex!</li>
+        <li>Cum non hic voluptate, ullam consequuntur quasi cumque sequi? Totam sit quae adipisci ullam omnis, vero
+            obcaecati voluptas placeat voluptatem?</li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi exercitationem? Dolores nam minima
+        voluptate voluptatem explicabo, sint quod itaque aperiam exercitationem vitae dolorem architecto vel quas nulla
+        non excepturi.</p>
+
+
+    <script>
+        // додавання HTML коду вкінець сторінки
+        document.write("<h2>Title element from JavaScript</h2>");
+
+        // створення змінної: let name = value;
+        let text = "green red blue";
+
+        // показ значення
+        alert(text);
+
+        // запитуємо значення в користувача та зберігаємо в змінну email
+        let email = prompt("Enter your email:");
+
+        // показ значення email на сторінку
+        document.write("<p>Your email is " + email + "</p>"); // конкатенація - зʼєднання рядків
+        document.write(`<p>Your email is ${email}</p>`);      // інтерполяція - включення в рядок певного виразу
+
+        // арифметичні оператор: + - * /
+
+        console.log(5 + 7);  // 12
+        console.log(40 - 8); // 28 
+        console.log(2 * 10); // 20
+        console.log(12 / 4); // 3
+
+        // оператор піднесення в степінь: **
+        console.log(2 ** 8); // 256
+    </script>
+
+    <!-- підключеня зовнішнього файла JavaScript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
