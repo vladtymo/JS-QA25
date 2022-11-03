@@ -100,3 +100,12 @@ for (let index = 0; index < numbers.length; ++index) {
 }
 
 console.log(`Sertificates summ: ${summa} UAH`);
+
+// while cycle: while(condition) { ... code ...}
+let age = +prompt("Enter your age:");
+// -12
+
+while (age < 0) {
+    console.warn("Invalid age! Try again:");
+    age = +prompt("Enter your age:");
+}
