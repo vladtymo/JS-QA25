@@ -13,11 +13,9 @@ const clearButton = document.getElementById("clear-btn");
 addButton.onclick = () => {
     // код, який спрацює при нажатті на кнопку (add-btn) 
     let text = prompt("Enter your text:");
-
     myList.innerHTML += `<li>${text}</li>`;
 }
 
 clearButton.onclick = () => {
-
     myList.innerHTML = "";
 }
